@@ -1,0 +1,41 @@
+body {
+  background-color: #352f5b;
+  color: whitesmoke;
+}
+
+.text-large {
+  font-size: 8vw;
+}
+
+#todo-list {
+  margin: 20px 0;
+  max-height: 50vh;
+  overflow-y: scroll;
+}
+#todo-list .row {
+  background-color: #423a6f;
+}
+
+#todo-list img {
+  width: 50%;
+}
+
+#todo-list > .row {
+  margin: 10px 0;
+}
+
+#todo-list li {
+  list-style-type: none;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+#new-item-text,
+#new-item-btn {
+  width: 100%;
+}
+
+input[type="checkbox"]:checked + li {
+  text-decoration: line-through;
+}
