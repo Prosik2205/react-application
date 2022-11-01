@@ -1,0 +1,45 @@
+.card
+{
+    width: 100%;
+    height: 600px; 
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-sizing: border-box;
+    border-radius: 6px;
+    border: 1px solid rgba(138, 138, 138, 0.273)
+    
+
+    
+}
+
+.card img{
+    width: 100%;
+    height: 50%;   
+}
+#text1
+{
+padding-left: 25px;
+font-size: 35px;
+
+}
+#text2
+{
+    padding-left: 25px;
+    font-size: 15px;
+    color: grey;
+}
+#text3
+{
+    padding-left: 25px;
+    font-size: 10px;
+    color: grey;
+
+}
+
+/* .text
+{
+    height: 50%;
+    width: 100%;
+    
+} */

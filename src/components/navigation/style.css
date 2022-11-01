@@ -1,0 +1,48 @@
+nav {
+  width: 30%;
+  height: 100vh;
+  padding-left: 20px;
+  background-color: #fff;
+  box-sizing: border-box;
+
+  
+}
+hr{
+width: 25%;
+margin-left: 0;
+
+}
+#t1
+{
+  font-size: 35px;
+}
+#t4
+{
+  font-size:15px;
+  color:gray;
+   padding-bottom: 15px;
+   padding-top: 15px;
+}
+#t2
+{
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 11px; 
+}
+#t3
+{
+  font-size: 10px;
+  color:gray;
+}
+.icons
+{
+display: flex;
+justify-content: space-between;
+flex-direction: row;
+width: 50%;
+
+}
+.icons div{
+  height: 20px;
+  width: 20px;
+}
