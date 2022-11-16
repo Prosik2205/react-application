@@ -1,45 +1,59 @@
-.card
-{
-    width: 100%;
-    height: 600px; 
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    box-sizing: border-box;
-    border-radius: 6px;
-    border: 1px solid rgba(138, 138, 138, 0.273)
-    
-
-    
+.card {
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 20px 0;
+  overflow: hidden;
 }
 
-.card img{
-    width: 100%;
-    height: 50%;   
-}
-#text1
-{
-padding-left: 25px;
-font-size: 35px;
-
-}
-#text2
-{
-    padding-left: 25px;
-    font-size: 15px;
-    color: grey;
-}
-#text3
-{
-    padding-left: 25px;
-    font-size: 10px;
-    color: grey;
-
+.card.hide {
+  animation-name: card-hide;
+  animation-duration: 1.75s;
+  animation-fill-mode: forwards;
 }
 
-/* .text
-{
-    height: 50%;
-    width: 100%;
-    
-} */
+@keyframes card-hide {
+  95% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    height: 0;
+    transform: translateX(100%);
+  }
+}
+
+.card > .card-image {
+  width: 100%;
+  height: 225px;
+  background-size: cover;
+  background-position: center;
+  transition: 0.05s;
+}
+
+.card > .card-image:hover {
+  opacity: 0.75;
+}
+
+.card-title {
+  font-size: 36px;
+  margin: 5px 10px;
+}
+
+.card-description {
+  color: rgb(132, 132, 132);
+  margin: 10px 10px;
+  font-size: 14px;
+}
+
+.card-date-section {
+  color: rgb(132, 132, 132);
+  margin: 10px 10px;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.card-date-section > span {
+  cursor: pointer;
+}
