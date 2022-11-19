@@ -1,6 +1,6 @@
 /* https://neumorphism.io/#212130 */
 .widget-weather {
-  width: 500px;
+  width: 1500px;
   aspect-ratio: 1 / 0.95;
   color: whitesmoke;
   border-radius: 33px;
@@ -10,6 +10,7 @@
   box-sizing: border-box;
   position: relative;
 }
+
 
 .lds-circle {
   width: 100%;
