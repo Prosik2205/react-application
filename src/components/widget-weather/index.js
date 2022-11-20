@@ -36,7 +36,7 @@ function WidgetWeather (props) {
 
    {/* <div>Longitude: {weatherData.coord.lon}</div>
    <div>Latitude: {weatherData.coord.lat}</div> */}
-   {/* <div>Weather:  {weatherData.weather[id,main,description,icon]}</div> */}
+   {/* <div>Weather:  {weatherData.weather.id}</div> */}
    
   </div>)}
  </div>);
