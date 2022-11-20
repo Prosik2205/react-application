@@ -22,12 +22,22 @@ function WidgetWeather (props) {
  return (<div className="widget-weather">
   {isLoaded 
    ? (<div class="lds-circle"><div></div></div>)
-  : (<div>
+  : (<div className="container">
    <div>City name: {props.city}</div>
-   <div>Longitude: {weatherData.coord.lon}</div>
-   <div>Latitude: {weatherData.coord.lat}</div>
-   <div>Weather:  {weatherData.weather.main}</div>
-   <div>Clouds:  {weatherData.clouds.all}</div>
+   <div>Clouds: {weatherData.clouds.all}</div>
+   <div>Wind:
+    <ul>
+        <li>deg: {weatherData.wind.deg}</li>
+        <li>gust: {weatherData.wind.gust}</li>
+        <li>speed: {weatherData.wind.speed}</li>
+    </ul>
+     </div>
+     <div>Sys:{weatherData.main.temp} </div>
+
+   {/* <div>Longitude: {weatherData.coord.lon}</div>
+   <div>Latitude: {weatherData.coord.lat}</div> */}
+   {/* <div>Weather:  {weatherData.weather[id,main,description,icon]}</div> */}
+   
   </div>)}
  </div>);
 }

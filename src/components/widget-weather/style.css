@@ -1,6 +1,6 @@
 /* https://neumorphism.io/#212130 */
 .widget-weather {
-  width: 1500px;
+  width: 500px;
   aspect-ratio: 1 / 0.95;
   color: whitesmoke;
   border-radius: 33px;
@@ -9,6 +9,12 @@
   padding: 15px;
   box-sizing: border-box;
   position: relative;
+}
+
+.container
+{
+  display: flex;
+  justify-content: space-between;
 }
 
 
