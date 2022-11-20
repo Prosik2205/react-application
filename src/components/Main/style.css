@@ -16,15 +16,20 @@
 {
     box-sizing: border-box;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr ;
    
    
 }
 .container
 {
+    
     justify-content: center;
     margin-left: 20%; 
+    margin-right: 20%;
     box-sizing: border-box;
+    display: grid;
+
+    align-items: center;
     
 }
 .hr
@@ -32,7 +37,7 @@
     margin-top: 40px;
     margin-bottom: 40px;
     border-top-style: dotted;
-    width: 80%;
+    width: 100%;
     box-sizing: border-box;
 
 }
@@ -45,14 +50,17 @@ footer
     color: #919191;
     background-color: #232323;
     border-bottom: 1px solid #333333;
-    display: block;
     width: 100%;
-    word-wrap: break-word;
     box-sizing: border-box;
     height: 421px;
+    
 }
 .ftr
 {
+    margin-left: 20%; 
+    margin-right: 20%;
     display: flex;
-    justify-content: center;
+    justify-content:space-between;
+    flex-direction: row;
+    
 }

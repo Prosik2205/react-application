@@ -3,6 +3,7 @@ import './style.css';
 import kut from './img/100.gif'
 function Menu(){
     return(
+        <div>
         <div className="container">
         <div className="grid">
 
@@ -63,19 +64,48 @@ function Menu(){
                 <p className="text2">Namjusto cras urna urnaretra lor urna neque sed quis orci nulla. Laoremut vitae doloreet condimentumst phasellentes dolor ut a ipsum id consectetus.</p>
             </div>
             </div>
-            <footer>
+        </div>
+        <footer>
                 <div className="ftr">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
+                    <div>
+                        <p>Footer Navigation</p>
+                        <hr/>
+                        <div>
+                            Home Page
+                            <hr/>
+                            Home Page
+                            <hr/>
+                            Home Page
+                            <hr/>
+                            Home Page
+                            <hr/>
+                            Home Page
+                            <hr/>
+                            Home Page
+                            <hr/>
+                            Home Page
+                            <hr/>
+                            Home Page
+                            <hr/>
 
-
+                        </div>
+                    </div>
+                    <div>
+                        <p> Lastest Gallery</p>
+                        <hr/>
+                        <div></div>
+                    </div>
+                    <div>
+                    <p> From Twitter</p>
+                    <hr/>
+                        <div></div>
+                    </div>
+                    <div>
+                    <p> Contact Us</p>
+                    <hr/>
+                    </div>
                 </div>
             </footer>
-
-
-
         </div>
 
     );
