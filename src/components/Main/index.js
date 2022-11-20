@@ -68,41 +68,59 @@ function Menu(){
         <footer>
                 <div className="ftr">
                     <div>
-                        <p>Footer Navigation</p>
-                        <hr/>
-                        <div>
-                            Home Page
-                            <hr/>
-                            Home Page
-                            <hr/>
-                            Home Page
-                            <hr/>
-                            Home Page
-                            <hr/>
-                            Home Page
-                            <hr/>
-                            Home Page
-                            <hr/>
-                            Home Page
-                            <hr/>
-                            Home Page
-                            <hr/>
+                        <p className="hr1">Footer Navigation</p>
+                        
+                        <div className="hr2">
+                            <a id="home">Home Page</a>
+                            
+                           <p> Our Services</p>
+                           
+                           <p>Meet the Team</p>
+                                
+                           <p>Blog</p>
+                                
+                           <p>Contact Us</p>
+                                
+                           <p>Gallery</p>
+                                
+                           <p>Portfolio</p>
+                            
+                           <p>Online Shop</p>
+                                  
 
                         </div>
                     </div>
                     <div>
-                        <p> Lastest Gallery</p>
-                        <hr/>
-                        <div></div>
+                        <p className="hr1"> Lastest Gallery</p>
+                        <div className="rubic">
+                        <div className="panel"></div>
+                        <div className="panel"></div>
+                        <div className="panel"></div>
+                        <div className="panel"></div>
+                        <div className="panel"></div>
+                        <div className="panel"></div>
+                        <div className="panel"></div>
+                        <div className="panel"></div>
+                        <div className="panel"></div>
+                        </div>
                     </div>
                     <div>
-                    <p> From Twitter</p>
-                    <hr/>
-                        <div></div>
+                    <p className="hr1">  From Twitter</p>
+                   
+                    <div className="hr3">
+                            <p id="home"> <a id="orange">@name</a> RT <a id="orange">@name</a> Donec suscipit vehicula turpis sed lutpat Quisque vitae quam neque.<a id="orange-small" >about 9 hours ago</a> </p>
+                            
+                            <p id="home"> <a id="orange">@name</a> RT <a id="orange">@name</a> Donec suscipit vehicula turpis sed lutpat Quisque vitae quam neque.<a id="orange-small" >about 9 hours ago</a> </p>
+                           
+                            <p id="home"> <a id="orange">@name</a> RT <a id="orange">@name</a> Donec suscipit vehicula turpis sed lutpat Quisque vitae quam neque.<a id="orange-small" >about 9 hours ago</a> </p>
+                                
+                           <p id="home"> <a id="orange">@name</a> RT <a id="orange">@name</a> Donec suscipit vehicula turpis sed lutpat Quisque vitae quam neque.<a id="orange-small" >about 9 hours ago</a> </p>
+                                
+                        </div>
                     </div>
                     <div>
-                    <p> Contact Us</p>
-                    <hr/>
+                    <p className="hr1"> Contact Us</p>
+                    
                     </div>
                 </div>
             </footer>

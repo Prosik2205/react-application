@@ -52,7 +52,7 @@ footer
     border-bottom: 1px solid #333333;
     width: 100%;
     box-sizing: border-box;
-    height: 421px;
+    height: 1000px;
     
 }
 .ftr
@@ -62,5 +62,54 @@ footer
     display: flex;
     justify-content:space-between;
     flex-direction: row;
+}
+.hr1
+{
+    font-size: 1.2em;
+    margin-bottom: 40px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #919191;
+}
+.hr2 #home
+{
+    color: orange;
+}
+.hr2 p
+{
+    color: orange;
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px solid #333333;
+}
+.rubic
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10px;
+   grid-row-gap: 1em;
+
+}
+.panel{
+    height: 76px;
+    width: 76px;
+    background-color: #3d3c3c;
     
 }
+
+.ftr >div
+{
+    padding-left: 50px;
+    width: 387px;
+}
+#orange
+{
+    color: orange;
+}
+#orange-small
+{
+    color: orange;
+    font-size: .8em;
+}
+
+
+
