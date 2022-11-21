@@ -120,8 +120,15 @@ function Menu(){
                     </div>
                     <div>
                     <p className="hr1"> Contact Us</p>
-                    
+                    Name *
+                    <div className="stroka"></div>
+                    Email *
+                    <div className="stroka"></div>
+                    <div className="stroka2"></div> 
+                    <botton className="b1">SUBMIT</botton>
+                    <botton className="b2">RESET</botton>
                     </div>
+                    
                 </div>
             </footer>
         </div>
