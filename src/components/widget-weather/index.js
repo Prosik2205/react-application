@@ -44,9 +44,15 @@ function WidgetWeather (props) {
     </ul>
      </div>
      </div>
-   {/* <div>Longitude: {weatherData.coord.lon}</div>
-   <div>Latitude: {weatherData.coord.lat}</div> */}
-   {/* <div>Weather:  {weatherData.weather.id}</div> */}
+   <div>Longitude: {weatherData.coord.lon}</div>
+   <div>Latitude: {weatherData.coord.lat}</div> 
+
+   {weatherData.rain && <div>Rain:  {weatherData.rain["1h"]}</div>}
+
+
+    <div>Weather:  {weatherData.weather[0].id}</div>
+    <div>Weather:  {weatherData.weather[0].main}</div>
+    <img src= {`http://openweathermap.org/img/wn/${weatherData.weather[0].icon}.png`} />
    
   </div>)}
  </div>);
