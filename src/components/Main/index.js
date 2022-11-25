@@ -7,9 +7,9 @@ function Menu(){
         <div className="container">
         <div className="grid">
 
-            {/* <div className="black">
-                    {/* <img src={kut} alt=''>  </img> 
-                </div> */}
+            <div className="black">
+                     <img src={kut} alt=''/> 
+                </div>
 
             <div className="con">
                 <h2>Headline Text</h2>
