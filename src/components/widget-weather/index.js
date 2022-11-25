@@ -23,7 +23,8 @@ function WidgetWeather (props) {
   {isLoaded 
    ? (<div class="lds-circle"><div></div></div>)
   : (<div className="container">
-   <div>City name: {props.city}</div>
+   <div className="head">Weather in : {props.city}</div>
+   <div className="weather">
    <div>Clouds: {weatherData.clouds.all}</div>
    <div>Wind:
     <ul>
@@ -32,8 +33,17 @@ function WidgetWeather (props) {
         <li>speed: {weatherData.wind.speed}</li>
     </ul>
      </div>
-     <div>Sys:{weatherData.main.temp} </div>
-
+     <div>Visibility:{weatherData.visibility }</div>
+     <div>Temp:
+    <ul>
+        <li>temp: {weatherData.main.temp}</li>
+        <li>feels: {weatherData.main.feels_like}</li>
+        <li>min: {weatherData.main.temp_min}</li>
+        <li>max: {weatherData.main.temp_max}</li>
+        <li>humidity: {weatherData.main.humidity}</li>
+    </ul>
+     </div>
+     </div>
    {/* <div>Longitude: {weatherData.coord.lon}</div>
    <div>Latitude: {weatherData.coord.lat}</div> */}
    {/* <div>Weather:  {weatherData.weather.id}</div> */}
