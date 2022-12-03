@@ -18,22 +18,8 @@ header
     letter-spacing: 3px;
     text-transform: uppercase;
     color: #fff;
-  text-decoration: none;
+ 
 }
-/* .navbar ul {
-    padding: 0;
-    margin: 0;
-    display: flex;
-    list-style: none;
-    align-items:center;
-    position: relative;
-    justify-content: flex-end;
-  }
-  li a
-  {
-    color: white;
-    margin-left: 20px;
-  } */
   .navbar {
    
     margin-left: 50%;
@@ -49,6 +35,8 @@ header
   
   .navbar li {
     position: relative;
+    
+    
   }
   
   .navbar a,
@@ -62,6 +50,7 @@ header
     color: #fff;
     white-space: nowrap;
     transition: 0.3s;
+    text-decoration: none;
   }
   
   .navbar a i,
