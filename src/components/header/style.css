@@ -6,6 +6,7 @@ header
   transition: all 0.5s;
   background: #1e4356;
   padding-left: 50px;
+  position: relative;
   
 }
 .logo
