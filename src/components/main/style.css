@@ -1,0 +1,27 @@
+.main
+{
+  width: 100%;
+  height: auto;
+  align-items: center;
+  position: relative;
+  
+  
+}
+.table
+{
+  
+  display: flex;
+  flex-direction: row;
+}
+.td
+{
+  background-color: azure;
+  height: 305px;
+  width: 305px;
+  color: black;
+
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
