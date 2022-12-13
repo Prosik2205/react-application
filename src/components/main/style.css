@@ -1,6 +1,19 @@
-
+.row
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.colum
+{
+  width: 250px;
+  height: 380px;
+  padding-left: 25px;
+  
+}
 .services {
-  padding-bottom: 20px;
+  padding-bottom: 200px;
 }
 
 .services .icon-box {
@@ -42,7 +55,7 @@
 
 .services .description {
   font-size: 15px;
-  line-height: 28px;
+  line-height: 30px;
   margin-bottom: 0;
 }
 
