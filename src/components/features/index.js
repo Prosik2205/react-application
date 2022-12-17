@@ -1,5 +1,12 @@
 import React from "react";
 import './style.css' 
+import foto1 from "../img/features-1.svg"
+import foto2 from "../img/features-2.svg"
+import foto3 from "../img/features-3.svg"
+import foto4 from "../img/features-4.svg"
+
+
+
 function features()
 {
     return(
@@ -13,7 +20,7 @@ function features()
 
         <div class="row" data-aos="fade-up">
           <div class="col-md-5">
-            <img src="../img/features-1.svg" class="img-fluid" alt=""/>
+            <img src={foto1} class="img-fluid" alt=""/>
           </div>
           <div class="col-md-7 pt-4">
             <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
@@ -30,7 +37,7 @@ function features()
 
         <div class="row" data-aos="fade-up">
           <div class="col-md-5 order-1 order-md-2">
-            <img src="../img/features-2.svg" class="img-fluid" alt=""/>
+            <img src={foto2} class="img-fluid" alt=""/>
           </div>
           <div class="col-md-7 pt-5 order-2 order-md-1">
             <h3>Corporis temporibus maiores provident</h3>
@@ -48,7 +55,7 @@ function features()
 
         <div class="row" data-aos="fade-up">
           <div class="col-md-5">
-            <img src="../img/features-3.svg" class="img-fluid" alt=""/>
+            <img src={foto3} class="img-fluid" alt=""/>
           </div>
           <div class="col-md-7 pt-5">
             <h3>Sunt consequatur ad ut est nulla consectetur reiciendis animi voluptas</h3>
@@ -63,7 +70,7 @@ function features()
 
         <div class="row" data-aos="fade-up">
           <div class="col-md-5 order-1 order-md-2">
-            <img src="../img/features-4.svg" class="img-fluid" alt=""/>
+            <img src={foto4} class="img-fluid" alt=""/>
           </div>
           <div class="col-md-7 pt-5 order-2 order-md-1">
             <h3>Quas et necessitatibus eaque impedit ipsum animi consequatur incidunt in</h3>

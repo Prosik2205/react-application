@@ -1,5 +1,6 @@
 import React from "react";
 import './style.css' 
+import foto from "../img/why-us.jpg"
 
 
 function why()
@@ -10,7 +11,7 @@ function why()
 
         <div class="row">
           <div class="col-lg-6 video-box">
-            <img src="../img/why-us.jpg" class="img-fluid" alt=""/>
+            <img src={foto} class="img-fluid" alt=""/>
             <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
           </div>
 
