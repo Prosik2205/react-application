@@ -4,6 +4,7 @@ import Hero from './components/hero';
 import Main from './components/main';
 import Why from './components/why';
 import Features from './components/features';
+import Footer from './components/footer';
 
 
 function App () {
@@ -14,6 +15,7 @@ function App () {
       <Main />
       <Why />
       <Features />
+      <Footer/>
 
     </div>
   );
