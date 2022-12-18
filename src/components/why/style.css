@@ -1,6 +1,22 @@
+.img-fluid1
+{
+  height: 50%;
+  width: 450px;
+  padding-right: 15px;
+}
+.why-us
+{
+  padding-left: 10%;
+  background-color:#abdce6 ;
+}
+
+
 .why-us .container {
     box-shadow: 0 5px 25px 0 rgba(214, 215, 216, 0.6);
     background: #fff;
+    height: 400px; 
+  width: 1000px;
+  margin-left: 10%;
   }
   
   .why-us .icon-box+.icon-box {

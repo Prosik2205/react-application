@@ -11,7 +11,7 @@ function features()
 {
     return(
         <section class="features">
-      <div class="container">
+      <div class="container1">
 
         <div class="section-title">
           <h2>Features</h2>

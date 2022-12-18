@@ -11,7 +11,7 @@ function why()
 
         <div class="row">
           <div class="col-lg-6 video-box">
-            <img src={foto} class="img-fluid" alt=""/>
+            <img src={foto} class="img-fluid1" alt=""/>
             <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
           </div>
 

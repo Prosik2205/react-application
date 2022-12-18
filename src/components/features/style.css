@@ -1,3 +1,22 @@
+.img-fluid
+{
+  width: 520px;
+  height: 320px;
+}
+.container1
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 1300px;
+  height: 1800px;
+  margin-left: 10%;
+}
+.section-title
+{
+  text-align: center;
+}
 .features .row+.row {
     margin-top: 100px;
   }
