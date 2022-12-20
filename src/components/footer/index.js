@@ -4,7 +4,7 @@ import './style.css'
 function Footer()
 {
     return(
-        <footer>
+        
         <footer id="footer" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
 
     <div class="footer-newsletter">
@@ -12,7 +12,7 @@ function Footer()
         <div class="row">
           <div class="col-lg-6">
             <h4>Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+            <p className="p1">Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
           </div>
           <div class="col-lg-6">
             <form action="" method="post">
@@ -85,7 +85,7 @@ function Footer()
       </div>
     </div>
   </footer>
-        </footer>
+       
 
        
 
